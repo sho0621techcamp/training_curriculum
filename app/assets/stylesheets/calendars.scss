@@ -5,6 +5,30 @@ body {
   background-color: rgb(114, 151, 161);
 }
 
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+}
+
+.label {
+  font-size: 3vh;
+  color: rgb(255, 255, 255);
+}
+
+.date-select {
+  height: 4vh;
+  width: 13vw;
+  margin: 0 2vw;
+}
+
+.text-input {
+  height: 4vh;
+  width: 15vw;
+  margin: 0 2vw;
+}
+
 .calendar {
   width: 100vw;
   margin-top: 15vh;
@@ -40,28 +64,4 @@ body {
 
 .plan-list {
   margin: 1vh 0;
-}
-
-.form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 15vh;
-}
-
-.lavel {
-  font-size: 3vh;
-  color: rgb(255, 255, 255);
-}
-
-.text-input {
-  height: 4vh;
-  width: 15vw;
-  margin: 0 2vw;
-}
-
-.date-select {
-  height: 4vh;
-  width: 13vw;
-  margin: 0 2vw;
 }
